@@ -5,6 +5,7 @@ import Person from './person';
 import PeopleList from './people'
 import { useState } from 'react';
 import { offsetLimitPagination } from "@apollo/client/utilities";
+import back from './images/back.svg'
 
 const cache = new InMemoryCache({
   typePolicies: {
@@ -30,12 +31,14 @@ function App() {
       <div className="App">
         <header>
           <p>Ravn Star Wars Registry</p>
+          <img src={back} alt='back' onClick={()=>setPerson("")} className={person ? "shown" : "hidden"}/>
+          <span>{person ? person.name : "People of Star Wars"}</span>
         </header>
         <main>
-          <aside>
+          <aside className={person ? "aside hidden" : "aside"}>
             <PeopleList setPerson={setPerson}/>
           </aside>
-          <section>
+          <section className={person ? "section" : "hidden"}>
             <Person person={person}/>
           </section>
         </main>
