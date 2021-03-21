@@ -3,7 +3,7 @@
 ## Project Description
 
 ## App
-![](ravn-challenge/src/images/d1)
+![](./ravn-challenge/src/images/d1)
 ![](../src/images/d2)
 
 When a person is selected:
