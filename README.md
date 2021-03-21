@@ -3,16 +3,16 @@
 ## Project Description
 
 ## App
-![](../src/images/d1)
-![](../src/images/d2)
+![Data loading](https://github.com/LauraJimenezB/Ravn-Challenge-V2-LauraJimenez/blob/master/ravn-challenge/src/images/d1.png)
+![List of people](https://github.com/LauraJimenezB/Ravn-Challenge-V2-LauraJimenez/blob/master/ravn-challenge/src/images/d2.png)
 
 When a person is selected:
-![](../src/images/d3)
+![Person's details](https://github.com/LauraJimenezB/Ravn-Challenge-V2-LauraJimenez/blob/master/ravn-challenge/src/images/d3.png)
 
 ### Mobile version
-![](../src/images/m1)
-![](../src/images/m2)
-![](../src/images/m3)
+![](https://github.com/LauraJimenezB/Ravn-Challenge-V2-LauraJimenez/blob/master/ravn-challenge/src/images/m1.png)
+![](https://github.com/LauraJimenezB/Ravn-Challenge-V2-LauraJimenez/blob/master/ravn-challenge/src/images/m2.png)
+![](https://github.com/LauraJimenezB/Ravn-Challenge-V2-LauraJimenez/blob/master/ravn-challenge/src/images/m3.png)
 
 ## Additional Information
 
