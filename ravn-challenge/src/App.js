@@ -4,18 +4,10 @@ import { ApolloProvider } from '@apollo/client';
 import Person from './person';
 import PeopleList from './people'
 import { useState } from 'react';
-import { offsetLimitPagination } from "@apollo/client/utilities";
+//import { relayStylePagination } from "@apollo/client/utilities";
 import back from './images/back.svg'
 
-const cache = new InMemoryCache({
-  typePolicies: {
-    Query: {
-      fields: {
-        feed: offsetLimitPagination()
-      },
-    },
-  },
-});
+const cache = new InMemoryCache();
 
 const client = new ApolloClient({
   uri: 'https://swapi-graphql.netlify.app/.netlify/functions/index',

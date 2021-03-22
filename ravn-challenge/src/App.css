@@ -67,6 +67,9 @@ main{
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.list-item:hover{
+  background-color: #f5f3f3;
+}
 .list-item img{
   width: 8pt;
 }
